@@ -1,2 +1,9 @@
 language: java
 script: mvn package
+deploy:
+  provider: releases
+  api_key: $meintoken
+  file: "/home/travis/.m2/repository/de/tietz/swt/vfh-maven/0.0.1-SNAPSHOT/vfh-maven-0.0.1-SNAPSHOT.jar"
+  skip_cleanup: true
+  on:
+    tags: true
