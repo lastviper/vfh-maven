@@ -1,13 +1,13 @@
 package de.tietz.swt.vfh_maven;
 
 /**
- * Hello world!
+ * Maven App
  *
  */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println("Hello World, I'm using Travis-CI with Marven!");
     }
 }
